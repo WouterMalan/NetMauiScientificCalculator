@@ -56,11 +56,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ViewModels\" />
+	  <Compile Update="Views\CalculatorPage.xaml.cs">
+	    <DependentUpon>CalculatorPage.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\CalulatorPage.xaml">
+	  <MauiXaml Update="Views\CalculatorPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
